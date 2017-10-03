@@ -9,8 +9,8 @@ def primee?(num)
     end
   end
   return true
-  end
 end
+
 
 
 
@@ -30,4 +30,4 @@ def prime?(n)
   end
 end
 
-puts benchmark.measure {prime?(1928374)}
+puts benchmark.measure { prime?(1928374) }
