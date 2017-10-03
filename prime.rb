@@ -27,6 +27,6 @@ def prime?(n)
         end
         i+=1
     end
-    true
+    return true
   end
 end
