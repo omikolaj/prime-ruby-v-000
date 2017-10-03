@@ -19,8 +19,8 @@ def prime?(n)
     arr = (2..n).to_a
     i = 0
     #numbers = []
-    while(i<arr.length)
-        if(n % arr[i-1] == 0)
+    while(i<arr.length-1)
+        if(n % arr[i] == 0)
           return false
           binding.pry
           #numbers << arr[i]
