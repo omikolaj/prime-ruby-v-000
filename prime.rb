@@ -38,4 +38,4 @@ def prime?(n)
 end
 
 
-puts Benchmark.measure { prime?(1928374) }
+puts Benchmark.measure { prime?(192218374) }
