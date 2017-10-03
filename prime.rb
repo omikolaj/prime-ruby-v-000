@@ -5,7 +5,7 @@ def prime?(num)
     return false
   else
     (2...num).each do |divisor|
-
+      return false if num % divisor == 0
     end
   end
   true
