@@ -1,5 +1,5 @@
 # Add  code here!
-
+require 'benchmark'
 def primee?(num)
   if (num.even?) || (num <0 || num == 0 || num == 1)
     return false
@@ -9,7 +9,10 @@ def primee?(num)
     end
   end
   return true
+  end
 end
+
+
 
 def prime?(n)
   if(n == 1) || (n < 0) || (n.even? && n != 2)
@@ -26,3 +29,5 @@ def prime?(n)
     return true
   end
 end
+
+puts benchmark.measure {prime?(1928374)}
