@@ -11,10 +11,9 @@ def primee?(num)
   true
 end
 
-
 def prime?(n)
-
   if(n == 1) || (n < 0) || (n.even? && n != 2)
+    binding.pry
     return false
   else
     arr = (2..n).to_a
