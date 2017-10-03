@@ -8,7 +8,7 @@ def prime?(num)
       return false if num % divisor == 0
     end
   end
-  true
+  return true
 end
 
 def primee?(n)
