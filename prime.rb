@@ -1,5 +1,6 @@
 # Add  code here!
 require 'benchmark'
+require 'bigdecimal/math'
 def primee?(n)
   if(n == 1) || (n < 0) || (n.even? && n != 2)
     return false
