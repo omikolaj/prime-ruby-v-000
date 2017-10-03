@@ -13,7 +13,7 @@ end
 
 def prime?(n)
   if(n == 1) || (n < 0) || (n.even? && n != 2)
-    binding.pry
+
     return false
   else
     arr = (2..n).to_a
@@ -22,7 +22,7 @@ def prime?(n)
     while(i<arr.length-1)
         if(n % arr[i] == 0)
           return false
-          binding.pry
+
           #numbers << arr[i]
         end
         i+=1
