@@ -1,7 +1,7 @@
 # Add  code here!
 require 'benchmark'
 require 'bigdecimal/math'
-def primee?(n)
+def prime?(n)
   if(n == 1) || (n < 0) || (n.even? && n != 2)
     return false
   else
@@ -17,7 +17,7 @@ def primee?(n)
   end
 end
 
-def prime?(n)
+def primee?(n)
   if(n == 1) || (n < 0) || (n.even? && n != 2)
     return false
   else
