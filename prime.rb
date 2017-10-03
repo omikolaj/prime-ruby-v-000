@@ -11,7 +11,7 @@ def primee?(num)
   return true
 end
 
-def primee?(n)
+def prime?(n)
   if(n == 1) || (n < 0) || (n.even? && n != 2)
     return false
   else
