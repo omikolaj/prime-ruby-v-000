@@ -23,6 +23,7 @@ def prime?(n)
     while(i<arr.length)
         if(n % arr[i-1] == 0)
           return false
+          binding.pry
           #numbers << arr[i]
         end
         i+=1
