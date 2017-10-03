@@ -29,7 +29,7 @@ def prime?(n)
         end
         i+=1
     end
-    if(numbers.length > 3)
+    if(numbers.length > 2)
       return false
     else
       return true
