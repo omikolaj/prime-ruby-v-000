@@ -1,5 +1,5 @@
 # Add  code here!
-
+require 'pry'
 def primee?(num)
   if (num.even?) || (num <0 || num == 0 || num == 1)
     return false
