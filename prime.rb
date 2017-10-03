@@ -1,6 +1,6 @@
 # Add  code here!
 
-def prime?(num)
+def primee?(num)
   if (num.even?) || (num <0 || num == 0 || num == 1)
     return false
   else
@@ -19,10 +19,11 @@ def prime?(n)
   else
     arr = (2..n).to_a
     i = 0
-    numbers = []
+    #numbers = []
     while(i<arr.length)
-        if(n % arr[i] == 0)
-          numbers << arr[i]
+        if(n % arr[i-1] == 0)
+          return false
+          #numbers << arr[i]
         end
         i+=1
     end
